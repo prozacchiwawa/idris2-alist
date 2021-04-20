@@ -1,6 +1,6 @@
 package alist
 
-modules = Data.AList
+modules = Data.AList, Data.Bool.DecBool
 
 depends = prelude, base, contrib
 sourcedir = "src"
