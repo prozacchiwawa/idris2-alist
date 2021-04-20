@@ -55,6 +55,7 @@ public export
 addIfUnique : Eq a => (k : a) -> (v : b) -> (l : DPair (List (Pair a b)) (\l => allKeysUniqueInList l = True)) -> DPair (List (Pair a b)) (\l => allKeysUniqueInList l = True)
 addIfUnique k v (l ** p) = appendBreak k v l p
 
+public export
 simpleTail : List x -> List x
 simpleTail [] = []
 simpleTail (hd :: tl) = tl
