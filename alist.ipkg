@@ -1,4 +1,4 @@
-package idris2-alist
+package alist
 
 modules = Data.AList
 
