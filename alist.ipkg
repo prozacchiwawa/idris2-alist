@@ -1,0 +1,6 @@
+package idris2-alist
+
+modules = Data.AList
+
+depends = prelude, base, contrib
+sourcedir = "src"
