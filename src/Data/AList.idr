@@ -1,6 +1,6 @@
 module Data.AList
 
-import Data.Bool.DecBool
+import Data.Bool
 import Decidable.Equality
 import Prelude.Uninhabited
 
